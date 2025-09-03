@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/armor/static/css/main.c1754a98.css",
+    "main.css": "/armor/static/css/main.46cac2a4.css",
     "main.js": "/armor/static/js/main.2c3f3a76.js",
     "static/media/mp4": "/armor/static/media/06d757d486dc48ef8682b269d1419438.67cc84f83ed7fb4d9882.mp4",
     "index.html": "/armor/index.html",
-    "main.c1754a98.css.map": "/armor/static/css/main.c1754a98.css.map",
+    "main.46cac2a4.css.map": "/armor/static/css/main.46cac2a4.css.map",
     "main.2c3f3a76.js.map": "/armor/static/js/main.2c3f3a76.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1754a98.css",
+    "static/css/main.46cac2a4.css",
     "static/js/main.2c3f3a76.js"
   ]
 }
