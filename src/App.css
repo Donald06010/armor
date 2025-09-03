@@ -1240,7 +1240,33 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1400px) and (min-width: 769px) {
+  .founder-section {
+    /* display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin-bottom: 2rem;
+    position: relative; */
+    padding-top: 148px;
+  }
+  
+  .founder-badge {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 0.8rem 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .founder-title,
+  .founder-name {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
+
+@media (max-width: 768px) {
   .hero {
     flex-direction: column;
     text-align: center;
