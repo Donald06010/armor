@@ -1204,7 +1204,7 @@
 /* Hero Section Responsive */
 @media (max-width: 1400px) {
   .hero {
-    padding: 0 3%;
+    padding: 30% 3%;
   }
   
   .hero h1 {
