@@ -1319,6 +1319,7 @@
     visibility: visible !important;
     opacity: 1 !important;
     width: 100%;
+    margin-top: 1rem;
   }
   
   .founder-badge {
@@ -1337,6 +1338,11 @@
   .founder-name {
     font-size: 1rem;
     display: block;
+  }
+  
+  .hero {
+    margin-top: 0;
+    padding-top: 100px;
   }
 }
 
@@ -1383,6 +1389,7 @@
     margin-bottom: 1.5rem;
     width: 100%;
     text-align: center;
+    margin-top: 1rem;
   }
   
   .founder-badge {
@@ -1409,7 +1416,8 @@
   }
   
   .hero {
-    padding-top: 100px;
+    margin-top: 0;
+    padding-top: 120px;
   }
 }
 

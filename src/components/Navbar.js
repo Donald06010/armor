@@ -36,6 +36,11 @@ const Navbar = () => {
           <li className="nav-item">
             <a href="#contact" className="nav-link" onClick={toggleMenu}>Contact</a>
           </li>
+          <li className="nav-item mobile-cart">
+            <div className="nav-link cart-mobile" onClick={() => { setIsCartOpen(!isCartOpen); toggleMenu(); }}>
+              🛒 Cart {getCartItemsCount() > 0 && `(${getCartItemsCount()})`}
+            </div>
+          </li>
         </ul>
         <div className="cart-icon" onClick={() => setIsCartOpen(!isCartOpen)}>
           🛒

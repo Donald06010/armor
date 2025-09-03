@@ -68,6 +68,10 @@
   padding: 0.5rem;
 }
 
+.mobile-cart {
+  display: none;
+}
+
 .hamburger span {
   width: 25px;
   height: 3px;
@@ -78,8 +82,21 @@
 }
 
 @media (max-width: 768px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+
   .hamburger {
     display: flex;
+    order: 3;
+  }
+
+  .nav-logo {
+    order: 1;
+  }
+
+  .cart-icon {
+    display: none;
   }
 
   .nav-menu {
@@ -108,6 +125,20 @@
     font-size: 1.1rem;
     padding: 1rem;
     display: block;
+  }
+
+  .mobile-cart {
+    display: block;
+  }
+
+  .cart-mobile {
+    cursor: pointer;
+    color: #ff6b35 !important;
+    font-weight: 600;
+  }
+
+  .cart-mobile:hover {
+    color: #e74c3c !important;
   }
 }
 
